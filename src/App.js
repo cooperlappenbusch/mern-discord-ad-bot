@@ -14,7 +14,12 @@ function App() {
   return (
     <div>
       {" "}
+<<<<<<< Updated upstream
       <Navbar bg='dark' expand='lg'>
+=======
+      <div className = "fixed-top">
+      <Navbar bg='light' expand='lg'>
+>>>>>>> Stashed changes
         <Navbar.Brand href='#home'>Discord adBot</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav'>
@@ -39,6 +44,8 @@ function App() {
           </Form>
         </Navbar.Collapse>
       </Navbar>
+      </div>
+      <div class='parallax'></div>
       <Jumbotron className='jumbotronCenter '>
         <div class='jumbotronContainer'>
           <h1>
@@ -62,6 +69,7 @@ function App() {
           </p>
         </div>
       </Jumbotron>
+      <div class='parallax'></div>
     </div>
   );
 }
