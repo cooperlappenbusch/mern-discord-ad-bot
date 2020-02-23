@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import "./index.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
@@ -13,6 +14,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 function App() {
   return (
+    <div className ="parallax"></div>
     <div>
       {" "}
       <Navbar bg='light' expand='lg'>
