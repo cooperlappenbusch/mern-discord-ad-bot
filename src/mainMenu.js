@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import "./index.css"
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
@@ -15,10 +16,10 @@ import { Router, Route, Switch } from "react-router-dom";
 
 function mainMenu() {
   return (
-    <div>
+    <div content='width=width-device, initial-scale 1'>
       {" "}
-      <Jumbotron className='jumbotronCenter '>
-        <div class='jumbotronContainer'>
+      <Jumbotron className='jumbotronCenter gradientTest'>
+        <div class='jumbotronContainer' content='height=height-device, justify-content center, initial-scale 1'>
           <h1>
             {" "}
             Advertise on Discord{" "}
