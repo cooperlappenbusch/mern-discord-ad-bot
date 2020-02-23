@@ -14,7 +14,7 @@ import Jumbotron from "react-bootstrap/Jumbotron";
 
 function App() {
   return (
-    <div className ="parallax"></div>
+    <div class ="parallax"></div>
     <div>
       {" "}
       <Navbar bg='light' expand='lg'>
